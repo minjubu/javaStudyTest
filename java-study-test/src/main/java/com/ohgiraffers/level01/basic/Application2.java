@@ -18,5 +18,9 @@ public class Application2 {
 
         System.out.println("면적 : " + result1);
         System.out.println("둘레 : " + result2);
+        System.out.println("--------------------");
+        // 간결하게 표현이 가능
+        System.out.println("면적 : " + (wide * high));
+        System.out.println("둘레 : " + (2*(wide + high)));
     }
 }

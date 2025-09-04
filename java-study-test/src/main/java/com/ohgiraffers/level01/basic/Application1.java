@@ -27,5 +27,12 @@ public class Application1 {
         System.out.println("곱하기 결과 : " + result3);
         System.out.println("나누기한 몫 : " + result4);
         System.out.println("나누기한 나머지 : " + result5);
+        System.out.println("---------------------");
+        // 간결하게 표현이 가능
+        System.out.println("더하기 결과 : " + (num1 + num2));
+        System.out.println("빼기 결과 : " + (num1 - num2));
+        System.out.println("곱하기 결과 : " + num1 * num2);
+        System.out.println("나누기한 몫 : " + num1 / num2);
+        System.out.println("나누기한 나머지 : " + num1 % num2);
     }
 }

@@ -13,5 +13,8 @@ public class Application1 {
         int cnum = ch1;
 
         System.out.println("문자 a의 unicode : " + cnum);
+        System.out.println("---------------------");
+        // 간결하게 표현이 가능
+        System.out.println("문자 a의 unicode : " + (int)ch1);
     }
 }

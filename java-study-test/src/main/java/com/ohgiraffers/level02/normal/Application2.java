@@ -20,5 +20,9 @@ public class Application2 {
 
         System.out.println("총점 : " + result);
         System.out.println("평균 : " + result2);
+        System.out.println("-----------------");
+        // 간결하게 표현이 가능
+        System.out.println("총점 : " + (int)sum);
+        System.out.println("평균 : " + (int)(sum/3));
     }
 }
