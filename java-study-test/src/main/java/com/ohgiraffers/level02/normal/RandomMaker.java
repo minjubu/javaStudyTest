@@ -7,7 +7,7 @@ public class RandomMaker {
         return (int) (Math.random() * (max - min + 1)) + min;
     }
 
-    
+
 
     public static String rockPaperScissors() {
         String[] choices = {"가위" , "바위", "보"};
