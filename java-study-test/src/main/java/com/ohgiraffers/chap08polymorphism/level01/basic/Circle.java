@@ -22,10 +22,10 @@ public class Circle extends Shape implements Resizable  {
         return 2 * Math.PI * radius;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Circle{" +
-//                "radius=" + radius +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
+    }
 }
